@@ -29,23 +29,41 @@ Fully managed data layer with RDS Multi-AZ
 🧩 AWS Services Used
 
 Compute & Scaling
+
 Amazon EC2
+
 Launch Template
+
 Auto Scaling Group (ASG)
+
 Amazon Application Load Balancer
+
 Storage
+
 Amazon EFS (shared file system across AZs)
+
 Amazon RDS MySQL (Multi-AZ)
+
 Networking
+
 Amazon VPC
+
 Public & Private Subnets
+
 Route Tables
+
 NAT Gateway
+
 Security Groups
+
 Monitoring & Security
+
 Amazon CloudWatch
+
 IAM Roles for EC2
+
 ALB Health Checks
+
 
 ⚙️ Deployment Steps (High-Level)
 
@@ -139,13 +157,20 @@ Complete WordPress installation wizard
 
 
 📚 What I Learned
+
 How to design and deploy highly available architectures on AWS
+
 Differences between stateless and stateful application layers
+
 How to use ALB + ASG for automatic scaling and resilience
+
 Using Multi-AZ RDS and EFS for data durability
+
 Proper VPC design across multiple Availability Zones
 
+
 ✅ Conclusion
+
 This project demonstrates a production-grade AWS architecture where every tier is built to handle failure gracefully and scale automatically. It follows the same design principles used by real-world enterprise and cloud-native applications.
 
 
